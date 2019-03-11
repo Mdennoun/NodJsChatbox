@@ -1,9 +1,12 @@
-/*
+
 var http = require('http');
 
-var server = http.createServer(function('/hello', res) {
+var server = http.createServer(function(req, res) {
   res.writeHead(200);
-  res.end('Salut tout le monde !');
+  res.end('Hello Word !');
 });
-server.listen(3000);$:*/
-console.log("Coucou");
+server.listen(3000);
+/*
+
+console.log("Hello Word");
+*/
